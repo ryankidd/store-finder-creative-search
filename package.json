@@ -1,0 +1,28 @@
+{
+	"name": "rk-store-finder",
+	"version": "0.0.1",
+	"description": "Description",
+	"author": "Ryan Kidd",
+	"license": "GPL-2.0-or-later",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build --webpack-copy-php",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start --webpack-copy-php"
+	},
+	"devDependencies": {
+		"@wordpress/dependency-extraction-webpack-plugin": "^4.14.0",
+		"@wordpress/scripts": "^26.2.0",
+		"prettier": "^2.8.7"
+	},
+	"dependencies": {
+		"@googlemaps/markerclusterer": "^2.0.15",
+		"@react-google-maps/api": "^2.18.1",
+		"react-controllables": "^0.6.0",
+		"react-select": "^5.7.2"
+	}
+}
