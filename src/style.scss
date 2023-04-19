@@ -1,0 +1,14 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ */
+
+ fieldset {
+	border: 0;
+ }
+
+.wp-block-rk-store-finder-rk-store-finder {
+	background-color: var(--wp--preset--color--white);
+	color: var(--wp--preset--color--black);
+	padding: 2px;
+}
