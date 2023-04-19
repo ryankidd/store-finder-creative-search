@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "rk-store-finder/rk-store-finder",
+  "version": "0.0.1",
+  "title": "RK Store Finder",
+  "category": "widgets",
+  "icon": "flag",
+  "description": "Description",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "rk-store-finder",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js",
+  "render": "file:./render.php"
+}
